@@ -22,7 +22,7 @@ export default function ProfessionalSummary() {
           {!results.length ? 
             <h1 className="flex items-center min-h-screen min-w-full justify-center text-4xl text-white uppercase">Loading</h1>
           : 
-            <div className="grid lg:grid-cols-[1fr_1fr] gap-2 mt-3">
+            <div className="grid lg:grid-cols-[1fr_1fr_1fr] md:grid-cols-[1fr_1fr] sm:grid-cols-[1fr] gap-2 mt-3">
               {results.map((job:any) => {
                 return (
                   <div key={job.empresa} className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 shadow-gray-500">
