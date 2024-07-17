@@ -27,7 +27,7 @@ export default function ProfessionalSummary() {
             <div className="grid lg:grid-cols-[1fr_1fr] mt-3">
               {results.map((job:any) => {
                 return (
-                  <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-2 mr-2 ml-2">
+                  <div key={job.empresa} className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-2 mr-2 ml-2">
                       <Link href="#">
                           <p className="text-yellow-600">{job.periodo}</p>
                           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white uppercase">{job.empresa}</h5>

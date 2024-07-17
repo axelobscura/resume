@@ -210,7 +210,7 @@ const works = [
     ]
   },
   {
-    "empresa": "imcyc",
+    "empresa": "IMCYC",
     "rol": "Full Stack Developer",
     "stack": ["PHP", "MySQL", "Wordpress", "ReactJS", "Bootstrap", "React router", "Salesforce API"],
     "periodo": "2011 - 2016",
