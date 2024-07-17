@@ -5,8 +5,8 @@ const works = [
     "empresa": "Revenue river",
     "rol": "Full Stack Developer",
     "stack": ["ReactJS", "Ruby on Rails", "Tailwind", "Bootstrap", "Typescript", "React router", "Hasura", "GraphQl"],
-    "periodo": "2021-2023",
-    "client": "ASYMM - US Based Company",
+    "periodo": "2021-2024",
+    "client": "INSTRUMENTAL - US Based Company",
     "responsabilidades": [
       "Involved in documentation of the architecture and configuration details",
       "Migrated existing systems to AWS using EC2 instances, auto-scaling, created VPN's, Security Groups, configuring a Load Balancers and creation of CloudFormation automation scripts",
