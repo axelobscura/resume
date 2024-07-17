@@ -199,7 +199,7 @@ const works = [
   },
   {
     "empresa": "BHUVI IT SOLUTIONS",
-    "rol": "Full Stack Developer",
+    "rol": "WEB Developer",
     "stack": ["PHP", "MySQL", "Wordpress", "ReactJS", "Bootstrap", "React router", "Salesforce API"],
     "periodo": "2016 - 2017",
     "client": "US Based Company",
@@ -211,7 +211,7 @@ const works = [
   },
   {
     "empresa": "IMCYC",
-    "rol": "Full Stack Developer",
+    "rol": "WEB Developer",
     "stack": ["PHP", "MySQL", "Wordpress", "ReactJS", "Bootstrap", "React router", "Salesforce API"],
     "periodo": "2011 - 2016",
     "client": "US Based Company",
@@ -223,7 +223,7 @@ const works = [
   },
   {
     "empresa": "PENGO STORES",
-    "rol": "Full Stack Developer",
+    "rol": "WEB Developer",
     "stack": ["PHP", "MySQL", "MAGENTO", "CSS", "JQuery", "Salesforce API"],
     "periodo": "2008 - 2011",
     "client": "US Based Company",
