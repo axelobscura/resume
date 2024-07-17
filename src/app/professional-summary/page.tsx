@@ -27,14 +27,14 @@ export default function ProfessionalSummary() {
             <div className="grid lg:grid-cols-[1fr_1fr] mt-3">
               {results.map((job:any) => {
                 return (
-                  <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-3 mr-2">
+                  <div className="w-full p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-2 mr-2 ml-2">
                       <Link href="#">
                           <p className="text-yellow-600">{job.periodo}</p>
                           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white uppercase">{job.empresa}</h5>
                           <p>{job.rol}</p>
                       </Link>
                       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">{job.client}</p>
-                      <Link href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-yellow-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      <Link href="#" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-yellow-700 hover:bg-gray-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-yellow-600 dark:hover:bg-gray-700 dark:focus:ring-gray-100">
                           Read more
                           <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
