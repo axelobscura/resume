@@ -38,7 +38,7 @@ const Sidebar = () => {
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
-                  background: '#333',
+                  background: `${pathname === "/technical-summary" ? "#ca8a04" : "#111"}`,
                   fontSize: '20px',
                   padding: '5px',
                 }} />
@@ -52,7 +52,7 @@ const Sidebar = () => {
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
-                  background: '#333',
+                  background: `${pathname === "/professional-summary" ? "#ca8a04" : "#111"}`,
                   fontSize: '20px',
                   padding: '5px',
                 }} />
@@ -66,7 +66,7 @@ const Sidebar = () => {
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
-                  background: '#333',
+                  background: `${pathname === "/education" ? "#ca8a04" : "#111"}`,
                   fontSize: '20px',
                   padding: '5px',
                 }} />
@@ -80,7 +80,7 @@ const Sidebar = () => {
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
-                  background: '#333',
+                  background: `${pathname === "/languages" ? "#ca8a04" : "#111"}`,
                   fontSize: '20px',
                   padding: '5px',
                 }} />
@@ -94,7 +94,7 @@ const Sidebar = () => {
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
-                  background: '#333',
+                  background: `${pathname === "/contact" ? "#ca8a04" : "#111"}`,
                   fontSize: '20px',
                   padding: '5px',
                 }} />
