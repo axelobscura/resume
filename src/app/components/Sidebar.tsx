@@ -34,7 +34,7 @@ const Sidebar = () => {
           <div className="w-full mt-4">
             <Link href="/technical-summary" className='flex'>
               <button className={`w-full block text-xs ${pathname === "/technical-summary" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Technical Summary</button>
-              <div className='bg-gray-600 p-1'>
+              <div className={`${pathname === "/technical-summary" ? "#ca8a04" : "#111"} p1`}>
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
@@ -48,7 +48,7 @@ const Sidebar = () => {
           <div className="w-full mt-1">
             <Link href="/professional-summary" className='flex'>
               <button className={`w-full block text-xs ${pathname === "/professional-summary" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Professional Summary</button>
-              <div className='bg-gray-600 p-1'>
+              <div className={`${pathname === "/professional-summary" ? "#ca8a04" : "#111"} p1`}>
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
@@ -62,7 +62,7 @@ const Sidebar = () => {
           <div className="w-full mt-1">
             <Link href="/education" className='flex'>
               <button className={`w-full block text-xs ${pathname === "/education" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Education</button>
-              <div className='bg-gray-600 p-1'>
+              <div className={`${pathname === "/education" ? "#ca8a04" : "#111"} p1`}>
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
@@ -76,7 +76,7 @@ const Sidebar = () => {
           <div className="w-full mt-1">
             <Link href="/languages" className='flex'>
               <button className={`w-full block text-xs ${pathname === "/languages" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Languages</button>
-              <div className='bg-gray-600 p-1'>
+              <div className={`${pathname === "/languages" ? "#ca8a04" : "#111"} p1`}>
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
@@ -90,7 +90,7 @@ const Sidebar = () => {
           <div className="w-full mt-1">
             <Link href="/contact" className='flex'>
               <button className={`w-full block text-xs ${pathname === "/contact" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Contact</button>
-              <div className='bg-gray-600 p-1'>
+              <div className={`${pathname === "/contact" ? "#ca8a04" : "#111"} p1`}>
                 <FaChevronRight style={{
                   color: '#fff',
                   height: '100%',
