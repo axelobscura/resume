@@ -1,9 +1,13 @@
+'use client'
 import { useState } from 'react';
+import { useParams, usePathname } from 'next/navigation';
 import Image from 'next/image';
 import Link from "next/link";
 import { FaChevronRight } from "react-icons/fa";
 
 const Sidebar = () => {
+  const params = useParams();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(true);
 
   return (
@@ -29,7 +33,7 @@ const Sidebar = () => {
         <div className="w-full flex flex-col items-center">
           <div className="w-full mt-4">
             <Link href="/technical-summary" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Technical Summary</button>
+              <button className={`w-full block text-xs ${pathname === "/technical-summary" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Technical Summary</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
@@ -43,7 +47,7 @@ const Sidebar = () => {
           </div>
           <div className="w-full mt-1">
             <Link href="/professional-summary" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Professional Summary</button>
+              <button className={`w-full block text-xs ${pathname === "/professional-summary" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Professional Summary</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
@@ -57,7 +61,7 @@ const Sidebar = () => {
           </div>
           <div className="w-full mt-1">
             <Link href="/education" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Education</button>
+              <button className={`w-full block text-xs ${pathname === "/education" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Education</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
@@ -71,7 +75,7 @@ const Sidebar = () => {
           </div>
           <div className="w-full mt-1">
             <Link href="/languages" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Languages</button>
+              <button className={`w-full block text-xs ${pathname === "/languages" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Languages</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
@@ -85,7 +89,7 @@ const Sidebar = () => {
           </div>
           <div className="w-full mt-1">
             <Link href="/contact" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Contact</button>
+              <button className={`w-full block text-xs ${pathname === "/contact" ? "bg-yellow-500 text-gray-900" : "bg-gray-500 text-gray-100"}  hover:bg-yellow-600 transition-all duration-500 hover:text-gray-100 uppercase font-bold py-3 px-4 mt-0 text-left`}>Contact</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
