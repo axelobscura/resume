@@ -19,6 +19,7 @@ export default function ProfessionalSummary() {
           <Sidebar />
         </div>
         <div className="p-4 h-screen overflow-auto pt-0 pb-5">
+          <h1 className="text-4xl text-white uppercase mt-5 mb-5 font-black text-center">Professional Summary</h1>
           {!results.length ? 
             <h1 className="flex items-center min-h-screen min-w-full justify-center text-4xl text-white uppercase">Loading</h1>
           : 
