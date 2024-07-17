@@ -56,7 +56,7 @@ export default function Home() {
             <b>using different modern tech stacks.</b>
           </p>
           <Link href="/professional-summary">
-            <button className="bg-yellow-400 hover:bg-gray-700 text-gray-900 uppercase font-bold py-3 px-8 mt-8">Professional Summary</button>
+            <button className="bg-yellow-400 hover:bg-gray-500 transition-all duration-500 text-gray-900 hover:text-white uppercase font-bold py-3 px-8 mt-8">Professional Summary</button>
           </Link>
         </div>
       </div>
