@@ -10,8 +10,8 @@ export default function Home() {
           <Sidebar />
         </div>
         <div className="flex flex-col items-center justify-center bg-gray-700 p-4">
-          <h1 className="m-1 mb-3 text-white text-8xl">Welcome</h1>
-          <h2 className="pt-0 text-4xl mt-2 mb-2">Axel Laurent Obscura Sarzotti</h2>
+          <h1 className="m-1 mb-3 text-white text-8xl font-thin">Welcome</h1>
+          <h2 className="pt-0 text-4xl mt-2 mb-4 font-bold text-gray-300">Axel Laurent Obscura Sarzotti</h2>
           <div className="flex icod m-1">
             <i className="devicon-javascript-plain m-2 text-3xl"></i>
             <i className="devicon-typescript-plain m-2 text-3xl"></i>
@@ -43,13 +43,13 @@ export default function Home() {
             <i className="devicon-ssh-plain m-2 text-3xl"></i>
           </div>
           <hr />
-          <h3 className="text-white font-extrabold mt-3 mb-3 text-3xl">Senior Full Stack Developer</h3>
-          <p>
+          <h3 className="text-white font-extrabold mt-3 mb-3 text-3xl text-gray-300">Senior Full Stack Developer</h3>
+          <p className="text-center">
             With 20 years of experience designing, developing and maintaining
             web and mobile applications
             <br />
             extensive experience creating multiple highly scalable applications{" "}
-            <b>using different modern tech stacks</b>
+            <b>using different modern tech stacks.</b>
           </p>
           <Link href="/professional-summary">
             <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-3 px-8 rounded mt-8">Professional Summary</button>
