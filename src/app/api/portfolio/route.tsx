@@ -96,7 +96,7 @@ const works = [
     "empresa": "Instituto Mexicano del Cemento y del Concreto A.C",
     "rol": "Full Stack Developer",
     "stack": ["ReactJS", "Tailwind", "React router", "Hasura", "GraphQl"],
-    "periodo": "2011 - 2021",
+    "periodo": "2011 - 2024",
     "client": "Mexico Based Company",
     "responsabilidades": [
       "Involved in documentation of the architecture and configuration details",
@@ -134,10 +134,10 @@ const works = [
     ]
   },
   {
-    "empresa": "TRYBU.MX",
+    "empresa": "TRYBU",
     "rol": "Full Stack Developer",
     "stack": ["PHP", "MySQL", "Wordpress", "ReactJS", "Bootstrap", "React router", "Salesforce API"],
-    "periodo": "2020",
+    "periodo": "2020-2022",
     "client": "US Based Company",
     "responsabilidades": [
       "Responsible of database architecture",
