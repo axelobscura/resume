@@ -208,6 +208,30 @@ const works = [
       "Migrated existing systems to AWS using EC2 instances, auto-scaling, created VPN's, Security Groups, configuring a Load Balancers and creation of CloudFormation automation scripts",
       "Co-ordinate with UX designers and develop static content using front end with HTML 5, CSS3 and React/Angular JS"
     ]
+  },
+  {
+    "empresa": "imcyc",
+    "rol": "Full Stack Developer",
+    "stack": ["PHP", "MySQL", "Wordpress", "ReactJS", "Bootstrap", "React router", "Salesforce API"],
+    "periodo": "2011 - 2016",
+    "client": "US Based Company",
+    "responsabilidades": [
+      "Involved in documentation of the architecture and configuration details",
+      "Migrated existing systems to AWS using EC2 instances, auto-scaling, created VPN's, Security Groups, configuring a Load Balancers and creation of CloudFormation automation scripts",
+      "Co-ordinate with UX designers and develop static content using front end with HTML 5, CSS3 and React/Angular JS"
+    ]
+  },
+  {
+    "empresa": "PENGO STORES",
+    "rol": "Full Stack Developer",
+    "stack": ["PHP", "MySQL", "MAGENTO", "CSS", "JQuery", "Salesforce API"],
+    "periodo": "2008 - 2011",
+    "client": "US Based Company",
+    "responsabilidades": [
+      "Involved in documentation of the architecture and configuration details",
+      "Migrated existing systems to AWS using EC2 instances, auto-scaling, created VPN's, Security Groups, configuring a Load Balancers and creation of CloudFormation automation scripts",
+      "Co-ordinate with UX designers and develop static content using front end with HTML 5, CSS3 and React/Angular JS"
+    ]
   }
 ];
  
