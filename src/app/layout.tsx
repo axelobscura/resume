@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+        <link rel="icon" type="image/png" href="favicon.png" />
       </head>
       <body className={montserrat.className}>{children}</body>
     </html>
