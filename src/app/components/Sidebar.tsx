@@ -14,19 +14,21 @@ const Sidebar = () => {
         }`}
       >
         <div className='text-center flex flex-col items-center'>
-          <Image
-            src="/6198657.jpeg"
-            width={75}
-            height={75}
-            alt="Full Stack Developer in Mexico Axel Laurent Obscura Sarzotti"
-            className='rounded-full mb-3 border-2 border-solid border-gray-500 shadow-md shadow-gray-900'
-          />
+          <Link href="/">
+            <Image
+              src="/6198657.jpeg"
+              width={75}
+              height={75}
+              alt="Full Stack Developer in Mexico Axel Laurent Obscura Sarzotti"
+              className='rounded-full mb-3 border-2 border-solid border-gray-500 shadow-md shadow-gray-900'
+            />
+          </Link>
           <p className='text-center font-extrabold text-2xl'>Axel Laurent<br/>Obscura Sarzotti</p>
           <p className='text-center font-thin text-gray-300 mt-3'>Sr. Full Stack Developer</p>
         </div>
         <div className="w-full flex flex-col items-center">
           <div className="w-full mt-4">
-            <Link href="/professional-summary" className='flex'>
+            <Link href="/technical-summary" className='flex'>
               <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Technical Summary</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
@@ -54,8 +56,8 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="w-full mt-1">
-            <Link href="/professional-summary" className='flex'>
-              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Professional Education</button>
+            <Link href="/education" className='flex'>
+              <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Education</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
                   color: '#fff',
@@ -68,7 +70,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="w-full mt-1">
-            <Link href="/professional-summary" className='flex'>
+            <Link href="/languages" className='flex'>
               <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Languages</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{
@@ -82,7 +84,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="w-full mt-1">
-            <Link href="/professional-summary" className='flex'>
+            <Link href="/contact" className='flex'>
               <button className="w-full block text-xs bg-gray-500 hover:bg-yellow-400 transition-all duration-500 text-gray-100 hover:text-gray-900 uppercase font-bold py-3 px-4 mt-0 text-left">Contact</button>
               <div className='bg-gray-600 p-1'>
                 <FaChevronRight style={{

@@ -5,14 +5,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col">
-      <div className="grid grid-cols-[1fr_5fr] gap-0">
+      <div className="grid lg:grid-cols-[1fr_5fr] md:grid-cols-[2fr_5fr] sm:grid-cols-[3fr_5fr] gap-0">
         <div className="p-0">
           <Sidebar />
         </div>
         <div className="flex flex-col items-center justify-center p-4">
           <h1 className="m-1 mb-3 text-white text-8xl font-thin">Welcome!</h1>
-          <h2 className="pt-0 text-4xl mt-2 mb-4 font-bold text-gray-300">Axel Laurent Obscura Sarzotti</h2>
-          <h3 className="font-extrabold mt-0 mb-3 text-3xl text-gray-300">Senior Full Stack Developer</h3>
+          <h2 className="pt-0 text-4xl mt-2 mb-4 font-bold text-gray-100">Axel Laurent Obscura Sarzotti</h2>
+          <h3 className="font-extrabold mt-0 mb-3 text-3xl text-gray-200">Senior Full Stack Developer</h3>
           <div className="flex icod m-1">
             <i className="devicon-javascript-plain m-2 text-3xl"></i>
             <i className="devicon-typescript-plain m-2 text-3xl"></i>
